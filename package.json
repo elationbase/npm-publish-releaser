@@ -7,7 +7,6 @@
     "build": "npm run clean && node build.js",
     "changelog": "conventional-changelog -p angular -c ./changelog.json -i CHANGELOG.md -s",
     "clean": "rm -rf android && rm -rf css && rm -rf ios && rm -rf js && rm -rf scss",
-    "release": "npx semantic-release",
     "test": "echo",
     "semantic-release": "semantic-release"
   },
