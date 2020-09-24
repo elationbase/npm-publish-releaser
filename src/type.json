@@ -46,5 +46,23 @@
       "value": 40,
       "type": "unit"
     }
+  },
+  "font-weight": {
+    "black": {
+      "value": "black",
+      "type": "weight"
+    },
+    "bold": {
+      "value": "bold",
+      "type": "weight"
+    },
+    "normal": {
+      "value": "normal",
+      "type": "weight"
+    },
+    "light": {
+      "value": "light",
+      "type": "weight"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "@elationbase/design-tokens",
-  "version": "0.0.1",
+  "name": "eb-design-tokens",
+  "version": "0.0.2",
   "description": "",
   "main": "build.js",
   "scripts": {
@@ -34,5 +34,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/elationbase/npm-publish-releaser.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
