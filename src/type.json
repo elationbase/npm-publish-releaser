@@ -1,0 +1,20 @@
+{
+  "font-family": {
+    "normal": {
+      "value": "ProximaNova-Regular",
+      "type": "typography"
+    },
+    "semibold": {
+      "value": "ProximaNova-Semibold",
+      "type": "typography"
+    },
+    "bold": {
+      "value": "ProximaNova-Bold",
+      "type": "typography"
+    },
+    "extrabold": {
+      "value": "ProximaNova-Extrabold",
+      "type": "typography"
+    }
+  }
+}
