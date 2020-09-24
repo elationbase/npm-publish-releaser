@@ -16,5 +16,35 @@
       "value": "ProximaNova-Extrabold",
       "type": "typography"
     }
+  },
+  "font-size": {
+    "xs": {
+      "value": 12,
+      "type": "unit"
+    },
+    "s": {
+      "value": 14,
+      "type": "unit"
+    },
+    "m": {
+      "value": 16,
+      "type": "unit"
+    },
+    "l": {
+      "value": 18,
+      "type": "unit"
+    },
+    "xl": {
+      "value": 24,
+      "type": "unit"
+    },
+    "xxl": {
+      "value": 30,
+      "type": "unit"
+    },
+    "xxxl": {
+      "value": 40,
+      "type": "unit"
+    }
   }
 }
