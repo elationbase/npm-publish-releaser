@@ -1,0 +1,39 @@
+{
+  "name": "design-tokens",
+  "version": "0.0.1",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "build": "npm run clean && node build.js",
+    "changelog": "conventional-changelog -p angular -c ./changelog.json -i CHANGELOG.md -s",
+    "clean": "rm -rf android && rm -rf css && rm -rf ios && rm -rf js && rm -rf scss",
+    "release": "npx semantic-release",
+    "test": "echo",
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [
+    "globalid",
+    "design",
+    "tokens",
+    "system",
+    "style",
+    "dictionary"
+  ],
+  "author": "alvaro montero",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "conventional-changelog-cli": "^2.1.0",
+    "semantic-release": "^17.1.2",
+    "style-dictionary": "^2.10.1",
+    "yorkie": "^2.0.0"
+  },
+  "gitHooks": {
+    "commit-msg": "commitlint -e $GIT_PARAMS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elationbase/npm-publish-releaser.git"
+  }
+}

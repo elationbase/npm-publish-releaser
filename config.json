@@ -1,0 +1,55 @@
+{
+  "source": ["src/**/*.json"],
+  "platforms": {
+    "js": {
+      "transformGroup": "custom/js",
+      "buildPath": "js/",
+      "files": [
+        {
+          "destination": "index.js",
+          "format": "javascript/es6"
+        }
+      ]
+    },
+    "css": {
+      "transformGroup": "custom/web",
+      "buildPath": "css/",
+      "files": [
+        {
+          "destination": "tokens.css",
+          "format": "css/variables"
+        }
+      ]
+    },
+    "scss": {
+      "transformGroup": "custom/web",
+      "buildPath": "scss/",
+      "files": [
+        {
+          "destination": "tokens.scss",
+          "format": "scss/variables"
+        }
+      ]
+    },
+    "android": {
+      "transformGroup": "custom/android",
+      "buildPath": "android/",
+      "files": [
+        {
+          "destination": "tokens.xml",
+          "format": "custom/android/xml"
+        }
+      ]
+    },
+    "ios": {
+      "transformGroup": "ios",
+      "buildPath": "ios/",
+      "files": [
+        {
+          "destination": "tokens.h",
+          "format": "ios/macros"
+        }
+      ]
+    }
+  }
+}
