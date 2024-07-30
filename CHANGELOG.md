@@ -1,5 +1,17 @@
 
 
+# [1.8.0](https://github.com/elationbase/npm-publish-releaser/compare/1.7.1...1.8.0) (2024-07-30)
+
+
+### Bug Fixes
+
+* update node version ([71d1cc2](https://github.com/elationbase/npm-publish-releaser/commit/71d1cc208a6a999d7ce86c221a02367f4499a692))
+
+
+### Features
+
+* added publish step ([24bf076](https://github.com/elationbase/npm-publish-releaser/commit/24bf076f3e762e66a34f44ded231173fc6265a8d))
+
 ## [1.7.1](https://github.com/elationbase/npm-publish-releaser/compare/1.7.0...1.7.1) (2024-07-30)
 
 
