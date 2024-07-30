@@ -1,5 +1,17 @@
 
 
+# [1.3.0](https://github.com/elationbase/npm-publish-releaser/compare/1.2.0...1.3.0) (2024-07-30)
+
+
+### Bug Fixes
+
+* **changelog:** allow multiple commits ([ee9b524](https://github.com/elationbase/npm-publish-releaser/commit/ee9b524416f1bbcb8c5fc99c4ae525dfd485af5d))
+
+
+### Features
+
+* **Text:** added wrap oprion ([07cfbf5](https://github.com/elationbase/npm-publish-releaser/commit/07cfbf5411ed9a9850fcce9146f331ba838a9f0c))
+
 # 1.2.0 (2024-07-30)
 
 
