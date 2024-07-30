@@ -37,6 +37,6 @@ body {
     text-wrap: nowrap;
   }
   .text-wrap {
-    text-wrap: -wrap;
+    text-wrap: wrap;
   }
 }
