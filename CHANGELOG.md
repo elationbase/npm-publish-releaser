@@ -1,5 +1,7 @@
 
 
+# [0.1.0](https://github.com/elationbase/npm-publish-releaser/compare/0.1.0-rc.0...0.1.0) (2024-07-30)
+
 # [0.1.0-rc.0](https://github.com/elationbase/npm-publish-releaser/compare/1.7.1...0.1.0-rc.0) (2024-07-30)
 
 
