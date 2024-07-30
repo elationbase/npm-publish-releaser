@@ -1,69 +1,36 @@
-<img src="logo.png" alt="GlobaliD">
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# 📦 Design Tokens
+## Getting Started
 
-Repository for unified design tokens
+First, run the development server:
 
-
-### 💻 Run App Locally
-
-```
-npm install
-```
-
-
-### 🌈 Commiting Changes
-
-This repo enforce `conventional commit` [More info](https://github.com/conventional-changelog/commitlint)
-
-### Types
-
-Must be one of the following:
-
-**build**: Changes that affect the build system or external dependencies (example scopes: webpack, babel, npm)
-
-**chore** Update tasks, no production code change (example scopes: build, lint, hooks)
-
-**ci**: Changes to our CI configuration files and scripts (example scopes: Jenkins, Travis, Circle)
-
-**docs**: Documentation only changes
-
-**feat**: A new feature
-
-**fix**: A bug fix
-
-**perf**: A code change that improves performance
-
-**refactor**: A code change that neither fixes a bug nor adds a feature
-
-**style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
-
-**test**: Adding missing tests or correcting existing tests
-
-### Commit message structure
-
-```
-<type>(scope): <description>
-
-[optional body]
-
-[optional footer]
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-```
-// Simple Example
-feat(calendar): added multiyear props to component
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Closes EB-1
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-```
-// Extended Example
-feat(calendar): added multiyear props to component
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-- Multiyear prop must be a number
-- Two theme styles
-- Unit tests and Snapshots
+## Learn More
 
-Closes EB-1
-```
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

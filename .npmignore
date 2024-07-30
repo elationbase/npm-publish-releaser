@@ -1,9 +1,0 @@
-.commitlintrc.js
-.editorconfig
-.gitignore
-
-node_modules
-src
-
-build.js
-changelog.json
