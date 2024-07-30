@@ -1,5 +1,12 @@
 
 
+## [1.7.1](https://github.com/elationbase/npm-publish-releaser/compare/1.7.0...1.7.1) (2024-07-30)
+
+
+### Bug Fixes
+
+* **release:** added build step ([ec9d558](https://github.com/elationbase/npm-publish-releaser/commit/ec9d558f6d48e18a335a93b1756b69c9b34158e1))
+
 # [1.7.0](https://github.com/elationbase/npm-publish-releaser/compare/1.6.0...1.7.0) (2024-07-30)
 
 
