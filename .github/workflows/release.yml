@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   release-please:
@@ -17,4 +16,3 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
-          skip-github-pull-request: true
