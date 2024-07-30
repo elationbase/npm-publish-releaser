@@ -1,0 +1,30 @@
+/* THEMES */
+
+@import './elationbase-light.css';
+@import './elationbase-dark.css';
+
+@tailwind base;
+
+@layer base {
+  h1 {
+    @apply ak-text-title1;
+  }
+  h2 {
+    @apply ak-text-title2;
+  }
+  h3 {
+    @apply ak-text-title3;
+  }
+  h3 {
+    @apply ak-text-title4;
+  }
+  a {
+    @apply ak-text-primary ak-underline hover:ak-text-primary-hover hover:ak-no-underline;
+  }
+  [data-theme] {
+    @apply ak-bg-surface1 ak-font ak-text-body3 ak-text-text1;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;

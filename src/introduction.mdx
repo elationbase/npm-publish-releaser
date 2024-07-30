@@ -1,0 +1,36 @@
+# @elationbase/test-design-system
+
+The design system is a collection of React components that can be used to build applications. The components are designed to be used in a consistent way to create a cohesive user experience.
+
+## Installation
+
+To install the design system.
+
+```bash dark
+npm install @elationbase/test-design-system
+pnpm install @elationbase/test-design-system
+bun install @elationbase/test-design-system
+```
+
+## Setup theme
+
+Theme can be `elationbase-dark` `elationbase-light`
+
+```html dark
+<body data-theme="elationbase-dark">
+....
+</body>
+```
+
+## Usage
+
+To use the design system, you can import the components you need from the package.
+
+```tsx dark
+import { Action } from '@elationbase/test-design-system';
+import '@elationbase/design-system/styles.css';
+
+function App() {
+  return <Action>Click me</Action>;
+}
+```

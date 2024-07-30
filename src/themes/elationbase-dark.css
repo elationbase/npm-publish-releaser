@@ -1,0 +1,39 @@
+[data-theme='elationbase-dark'] {
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  --color-primary: #14c374;
+  --color-primary-hover: #1fda86;
+
+  --color-secondary: #f2f2f7;
+
+  --color-error: #f04438;
+  --color-success: #3dc000;
+  --color-warning: #f5c108;
+
+  --color-surface1: #1d1d1d;
+  --color-surface2: #000000;
+  --color-surface3: #0e0e0e;
+
+  --color-text1: #ffffff;
+  --color-text2: #a8a8a8;
+  --color-text3: #4d4d4d;
+  --color-text4: #272727;
+
+  --rounded: 6px;
+
+  --fontSize-title1: clamp(2rem, 5vw, 3rem);
+  --fontSize-title2: clamp(1.5rem, 4vw, 2.5rem);
+  --fontSize-title3: clamp(1.2rem, 3vw, 2rem);
+  --fontSize-title4: clamp(1rem, 2.5vw, 1.5rem);
+
+  --fontSize-body1: clamp(1.2rem, 2vw + 0.5rem, 1.333rem);
+  --fontSize-body2: clamp(1.067rem, 1vw + 0.75rem, 1.2rem);
+  --fontSize-body3: clamp(0.933rem, 1vw + 0.75rem, 1.067rem);
+  --fontSize-body4: clamp(0.8rem, 1vw + 0.5rem, 0.933rem);
+  --fontSize-body5: clamp(0.667rem, 1vw + 0.5rem, 0.8rem);
+  --fontSize-body6: clamp(0.6rem, 1vw + 0.25rem, 0.667rem);
+
+  --fontFamily-sans: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}

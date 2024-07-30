@@ -1,32 +1,75 @@
 {
-  "name": "@elationbase/releaser",
-  "version": "1.7.1",
+  "name": "@elationbase/test-design-system",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "release": "release-it"
+  "version": "0.0.0",
+  "type": "module",
+  "types": "./dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/elationbase-design-system.js",
+      "require": "./dist/elationbase-design-system.cjs",
+      "umd": "./dist/elationbase-design-system.umd.js"
+    },
+    "./styles.css": {
+      "import": "./dist/styles.css"
+    }
   },
-  "dependencies": {
-    "next": "14.2.5",
-    "react": "^18",
-    "react-dom": "^18"
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run build:icons && tsc -b && vite build && npm run build:css",
+    "build:css": "tailwindcss -m -i ./src/themes/tailwind.css -o ./dist/styles.css",
+    "build:icons": "node ./scripts/build-icons.js && prettier --write ./src/icons/components/* && prettier --write ./src/types/icons.ts",
+    "build:storybook": "npm run build:icons && storybook build && npm run build:storybook:css",
+    "build:storybook:css": "tailwindcss -m -i ./src/themes/tailwind.css -o .storybook/styles.css",
+    "format": "prettier --write \"src/**/*.+(js|jsx|ts|tsx|json|css|md|mdx)\"",
+    "lint": "eslint . --ext js,ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "release": "commit-and-tag-version",
+    "start": "npm run storybook",
+    "storybook": "concurrently \"npm run storybook:css\" \"storybook dev -p 6006\"",
+    "storybook:css": "tailwindcss -w -i ./src/themes/tailwind.css -o .storybook/styles.css",
+    "test": "test-storybook",
+    "prepare": "husky"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@release-it/conventional-changelog": "^8.0.1",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.5",
-    "postcss": "^8",
-    "release-it": "^17.6.0",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@chromatic-com/storybook": "^1.6.1",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@storybook/addon-a11y": "^8.2.6",
+    "@storybook/addon-essentials": "^8.2.6",
+    "@storybook/addon-interactions": "^8.2.6",
+    "@storybook/addon-links": "^8.2.6",
+    "@storybook/addon-themes": "^8.2.6",
+    "@storybook/blocks": "^8.2.6",
+    "@storybook/react": "^8.2.6",
+    "@storybook/react-vite": "^8.2.6",
+    "@storybook/test": "^8.2.6",
+    "@storybook/test-runner": "^0.19.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
+    "@typescript-eslint/parser": "^7.15.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "clsx": "^2.1.1",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "eslint-plugin-storybook": "^0.8.0",
+    "husky": "^9.1.4",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "storybook": "^8.2.6",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss": "^3.4.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "vite-plugin-dts": "^4.0.0-beta.1"
   }
 }
