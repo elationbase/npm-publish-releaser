@@ -1,3 +1,12 @@
+
+
+# 1.1.0 (2024-07-30)
+
+
+### Features
+
+* added changelog ([aae2f48](https://github.com/elationbase/npm-publish-releaser/commit/aae2f489deb54784b146dc45add233ef3c30f0c6))
+
 # Changelog
 
 ## 1.0.0 (2024-07-30)
