@@ -5,8 +5,7 @@ on:
     branches:
       - main
 
-permissions:
-  contents: write
+permissions: write-all
 
 jobs:
   release-please:
@@ -16,4 +15,3 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
-          skip-github-pull-request: true
