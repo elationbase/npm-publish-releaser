@@ -1,5 +1,12 @@
 
 
+# [1.7.0](https://github.com/elationbase/npm-publish-releaser/compare/1.6.0...1.7.0) (2024-07-30)
+
+
+### Features
+
+* **npm:** Created npm-publish-github-packages.yml ([a96f089](https://github.com/elationbase/npm-publish-releaser/commit/a96f089b545d2778f10508becf0680b8f2d928ab))
+
 # [1.6.0](https://github.com/elationbase/npm-publish-releaser/compare/1.6.0-rc.0...1.6.0) (2024-07-30)
 
 # [1.6.0-rc.0](https://github.com/elationbase/npm-publish-releaser/compare/1.5.0...1.6.0-rc.0) (2024-07-30)
