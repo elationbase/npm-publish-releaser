@@ -1,5 +1,17 @@
 
 
+# [1.6.0-rc.0](https://github.com/elationbase/npm-publish-releaser/compare/1.5.0...1.6.0-rc.0) (2024-07-30)
+
+
+### Bug Fixes
+
+* **actions:** changed prerelease name ([fee9f82](https://github.com/elationbase/npm-publish-releaser/commit/fee9f82bbdfa3f1942dc9b9ae5b559ec43cf83ca))
+
+
+### Features
+
+* **actions:** added a pre-release trigger ([47eb117](https://github.com/elationbase/npm-publish-releaser/commit/47eb11790ba154239049f7f4bb4ca6241b67b442))
+
 # [1.5.0](https://github.com/elationbase/npm-publish-releaser/compare/1.4.0...1.5.0) (2024-07-30)
 
 
