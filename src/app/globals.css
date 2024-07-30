@@ -33,4 +33,7 @@ body {
   .text-no-balance {
     text-wrap: initial;
   }
+  .text-no-wrap {
+    text-wrap: nowrap;
+  }
 }
