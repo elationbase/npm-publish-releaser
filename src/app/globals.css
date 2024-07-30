@@ -30,4 +30,7 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .text-no-balance {
+    text-wrap: initial;
+  }
 }
