@@ -1,9 +1,7 @@
-name: Release
+name: Create Release
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   build:
@@ -23,7 +21,7 @@ jobs:
       - name: Git User
         run: |
           git config user.name 'github-actions[bot]'
-          git config user.email 'elationbase@gmail.com'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
       - name: Run release
         run: npx release-it ${{github.event.inputs.releaseversion}} --ci
         env:
