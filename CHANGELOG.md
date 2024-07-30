@@ -1,5 +1,12 @@
 
 
+# 1.2.0 (2024-07-30)
+
+
+### Features
+
+* **Text:** use a no wrap text option ([6799310](https://github.com/elationbase/npm-publish-releaser/commit/67993102939b09a73e68781a952c1129307488b5))
+
 # 1.1.0 (2024-07-30)
 
 
