@@ -1,5 +1,12 @@
 
 
+# [1.5.0](https://github.com/elationbase/npm-publish-releaser/compare/1.4.0...1.5.0) (2024-07-30)
+
+
+### Features
+
+* **actions:** change tigger to manual ([3d47244](https://github.com/elationbase/npm-publish-releaser/commit/3d47244014d0a587a22b01d27acbbc6c1c953708))
+
 # [1.4.0](https://github.com/elationbase/npm-publish-releaser/compare/1.3.0...1.4.0) (2024-07-30)
 
 
