@@ -1,6 +1,5 @@
 {
   "name": "@elationbase/test-design-system",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "types": "./dist/src/index.d.ts",
@@ -17,6 +16,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "build": "npm run build:icons && tsc -b && vite build && npm run build:css",
     "build:css": "tailwindcss -m -i ./src/themes/tailwind.css -o ./dist/styles.css",
