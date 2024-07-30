@@ -1,5 +1,12 @@
 
 
+# [1.4.0](https://github.com/elationbase/npm-publish-releaser/compare/1.3.0...1.4.0) (2024-07-30)
+
+
+### Features
+
+* **release:** chnage email to a verified ([a4522f9](https://github.com/elationbase/npm-publish-releaser/commit/a4522f93709697a1e2328f8764fa514aae89f81a))
+
 # [1.3.0](https://github.com/elationbase/npm-publish-releaser/compare/1.2.0...1.3.0) (2024-07-30)
 
 
