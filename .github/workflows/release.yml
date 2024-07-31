@@ -6,7 +6,6 @@ on:
       - main
     types:
       - closed
-      
 
 jobs:
   build:
@@ -53,8 +52,6 @@ jobs:
 
       - name: Install
         run: npm ci
-      - name: Git User
-        run: git verify-commit $( git rev-parse HEAD )
       - name: Run release
         run: npx release-it --ci
         env:
