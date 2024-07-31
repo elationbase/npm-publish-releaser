@@ -1,5 +1,12 @@
 
 
+# [0.7.0](https://github.com/elationbase/npm-publish-releaser/compare/0.6.0...0.7.0) (2024-07-31)
+
+
+### Features
+
+* Changed to merge to main ([#15](https://github.com/elationbase/npm-publish-releaser/issues/15)) ([265b5b6](https://github.com/elationbase/npm-publish-releaser/commit/265b5b604b59904046e18740c907fcabe83a25c0))
+
 # [0.6.0](https://github.com/elationbase/npm-publish-releaser/compare/0.5.0...0.6.0) (2024-07-31)
 
 
