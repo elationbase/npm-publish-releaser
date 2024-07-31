@@ -1,5 +1,12 @@
 
 
+## [0.3.3](https://github.com/elationbase/npm-publish-releaser/compare/0.3.2...0.3.3) (2024-07-31)
+
+
+### Bug Fixes
+
+* Bot email ([#4](https://github.com/elationbase/npm-publish-releaser/issues/4)) ([16dfeff](https://github.com/elationbase/npm-publish-releaser/commit/16dfeffcb1b4a59aa8932887cac24dc0fc843b8b))
+
 ## [0.3.2](https://github.com/elationbase/npm-publish-releaser/compare/0.3.0...0.3.2) (2024-07-31)
 
 
