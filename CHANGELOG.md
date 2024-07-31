@@ -1,5 +1,21 @@
 
 
+# [0.6.0](https://github.com/elationbase/npm-publish-releaser/compare/0.5.0...0.6.0) (2024-07-31)
+
+
+### Bug Fixes
+
+* Commit verified (closes [#12](https://github.com/elationbase/npm-publish-releaser/issues/12)) ([2f07071](https://github.com/elationbase/npm-publish-releaser/commit/2f07071e061f3ac01f0b3e43f9d327c1389464a8))
+* Remove actions node warning ([#13](https://github.com/elationbase/npm-publish-releaser/issues/13)) ([16dee9c](https://github.com/elationbase/npm-publish-releaser/commit/16dee9c6ad11fcd56fdd7edb6843e446e7520006))
+
+
+### Features
+
+* Added Stemp before merge ([#14](https://github.com/elationbase/npm-publish-releaser/issues/14)) ([#15](https://github.com/elationbase/npm-publish-releaser/issues/15)) ([6d5cabb](https://github.com/elationbase/npm-publish-releaser/commit/6d5cabbb5f0023b377f16be42dc81cf3a8dbf408))
+* Reenable gh pages ([#13](https://github.com/elationbase/npm-publish-releaser/issues/13)) ([6ddebd6](https://github.com/elationbase/npm-publish-releaser/commit/6ddebd64ac9f3375b8825f22a5129bd25f6ae3f8))
+* Release types closed ([#14](https://github.com/elationbase/npm-publish-releaser/issues/14)) ([6609219](https://github.com/elationbase/npm-publish-releaser/commit/6609219268e6c175d350e78c6660183c71ab4e99))
+* Test triggers ([#14](https://github.com/elationbase/npm-publish-releaser/issues/14)) ([dc93f8d](https://github.com/elationbase/npm-publish-releaser/commit/dc93f8d58c5a4cbb0049a1390df67ff241620385))
+
 # [0.5.0](https://github.com/elationbase/npm-publish-releaser/compare/0.3.3...0.5.0) (2024-07-31)
 
 
