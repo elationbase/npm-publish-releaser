@@ -1,5 +1,17 @@
 
 
+# [0.5.0](https://github.com/elationbase/npm-publish-releaser/compare/0.3.3...0.5.0) (2024-07-31)
+
+
+### Bug Fixes
+
+* Test email 2 ([#4](https://github.com/elationbase/npm-publish-releaser/issues/4)) ([33c571d](https://github.com/elationbase/npm-publish-releaser/commit/33c571d7ec8059e68bc4ad69bf37c3b0b8079753))
+
+
+### Features
+
+* Check without email ([#4](https://github.com/elationbase/npm-publish-releaser/issues/4)) ([18bda94](https://github.com/elationbase/npm-publish-releaser/commit/18bda94b212a2007995e43d74a92e1b6116bf198))
+
 ## [0.3.3](https://github.com/elationbase/npm-publish-releaser/compare/0.3.2...0.3.3) (2024-07-31)
 
 
