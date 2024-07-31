@@ -1,7 +1,11 @@
 name: Create Release
 
 on:
-  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
 
 jobs:
   build:
@@ -29,7 +33,7 @@ jobs:
         env:
           GPG_KEY: ${{ secrets.GPG_KEY }}
 
-      - name: Add the custom gpg siging program that passes the passphrase to the gpg CLI
+      - name: Add the custom gpg siging script
         run: |
           rm -rf /tmp/gpg.sh
           echo '#!/bin/bash' >> /tmp/gpg.sh
