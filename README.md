@@ -2,11 +2,12 @@
 
 The design system is a collection of React components that can be used to build applications. The components are designed to be used in a consistent way to create a cohesive user experience.
 
+
+
 ## Develop
 
 ```bash
 npm install
-npm run build:icons
 npm run start
 ```
 
