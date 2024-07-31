@@ -41,6 +41,8 @@ jobs:
           git config commit.gpgsign true
           git config user.signingkey $GPG_KEY_ID
           git config gpg.program /tmp/gpg.sh
+          git config --global user.email "elationbase@gmail.com"
+          git config --global user.name "Alvaro Montero"
         env:
           GPG_KEY_ID: ${{ secrets.GPG_KEY_ID }}
 
