@@ -1,5 +1,18 @@
 
 
+# [0.3.0](https://github.com/elationbase/npm-publish-releaser/compare/0.2.0...0.3.0) (2024-07-31)
+
+
+### Bug Fixes
+
+* Action error ([#4](https://github.com/elationbase/npm-publish-releaser/issues/4)) ([4778d8a](https://github.com/elationbase/npm-publish-releaser/commit/4778d8abea3c3b16eccdee206118ad7681514f33))
+
+
+### Features
+
+* **Actions:** More verify commits ([#4](https://github.com/elationbase/npm-publish-releaser/issues/4)) ([0a96794](https://github.com/elationbase/npm-publish-releaser/commit/0a967945c0fb74219b94f039fde0f4266a5080cb))
+* **Actions:** Sign commits 1 ([#4](https://github.com/elationbase/npm-publish-releaser/issues/4)) ([072773a](https://github.com/elationbase/npm-publish-releaser/commit/072773a623875b2756f05c22885c6d3fccbaf1af))
+
 # [0.2.0](https://github.com/elationbase/npm-publish-releaser/compare/1.7.1...0.2.0) (2024-07-31)
 
 
