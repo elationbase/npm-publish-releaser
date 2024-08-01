@@ -1,5 +1,12 @@
 
 
+# [0.8.0](https://github.com/elationbase/npm-publish-releaser/compare/0.7.0...0.8.0) (2024-08-01)
+
+
+### Features
+
+* Add commit on merge ([#16](https://github.com/elationbase/npm-publish-releaser/issues/16)) ([c24a3cc](https://github.com/elationbase/npm-publish-releaser/commit/c24a3cc0758f5842e495daf00ebfe4aa6e5df688))
+
 # [0.7.0](https://github.com/elationbase/npm-publish-releaser/compare/0.6.0...0.7.0) (2024-07-31)
 
 
