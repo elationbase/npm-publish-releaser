@@ -1,5 +1,12 @@
 
 
+# [0.9.0](https://github.com/elationbase/npm-publish-releaser/compare/0.8.0...0.9.0) (2024-08-01)
+
+
+### Features
+
+* Update node version ([#16](https://github.com/elationbase/npm-publish-releaser/issues/16)) ([bf05cc1](https://github.com/elationbase/npm-publish-releaser/commit/bf05cc191521ec6d7beef7acb27fd9d2e0d36327))
+
 # [0.8.0](https://github.com/elationbase/npm-publish-releaser/compare/0.7.0...0.8.0) (2024-08-01)
 
 
