@@ -1,0 +1,42 @@
+name: Add Commit on Merge
+
+on:
+  pull_request:
+    types: [synchronize, opened, reopened, ready_for_review]
+
+jobs:
+  add-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Add a commit to the PR
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      run: |
+        # Check if the PR is ready to merge
+        if [[ "$(jq -r .pull_request.mergeable $GITHUB_EVENT_PATH)" == "true" ]]; then
+          echo "PR is mergeable. Adding a commit..."
+          # Add your commands to create a new commit here
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          echo "This is a new commit added by the GitHub Action" >> new_file.txt
+          git add new_file.txt
+          git commit -m "Add a new commit before merge"
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.event.pull_request.head.ref }}
+        else
+          echo "PR is not mergeable. Skipping commit addition."
+        fi
+    - name: Create success status
+      if: success()
+      run: echo "Setting status check to success"
